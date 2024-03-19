@@ -7,42 +7,47 @@
     <title>Haiku Ai Generator</title>
   </head>
   <body>
-    <header>
-      <h1>Yōkoso(welcome) to the Haiku Ai Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Select a topic:"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The Haiku will go header
-        <br />
-        The Haiku will go here
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/MarianaMotaSilva" target="_blank"
-        >Mariana Silva</a
-      >
-      and is
-      <a
-        href="https://github.com/MarianaMotaSilva/haiko_generator_ia"
-        target="_blank"
-        >Open-sourced on GitHub</a
-      >
-      and hosted on
-      <a href="https://haiku-generator-ai.netlify.app" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Yōkoso(welcome) to the Haiku Ai Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Choose a topic:"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="haiku">
+          The Haiku will go here
+          <br />
+          The Haiku will go here
+        </div>
+      </main>
+      <br />
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/MarianaMotaSilva" target="_blank"
+          >Mariana Silva</a
+        >
+        and is
+        <a
+          href="https://github.com/MarianaMotaSilva/haiko_generator_ia"
+          target="_blank"
+          >Open-sourced on GitHub</a
+        >
+        and hosted on
+        <a href="https://haiku-generator-ai.netlify.app" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+      <br />
+    </div>
     <script src="src/index.js" ;></script>
   </body>
 </html>
