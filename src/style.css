@@ -1,27 +1,28 @@
 body {
   background-image: url("https://img.freepik.com/premium-photo/japanese-zen-meditation-room-featuring-minimalist-aesthetic-natural-textures-soothing-atmosphere-generated-by-ai_661108-4996.jpg?w=740");
-  background-size: 1200px;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   background-color: #90785e66;
 }
 
 h1 {
   font-weight: 700;
   font-size: 25px;
-  line-height: 1.5;
+  line-height: 2.8;
   color: black;
 }
 
 .container {
   margin: 120px auto;
   max-width: 600px;
-  background-color: rgba(172, 147, 121, 0.839);
+  background-color: rgba(172, 147, 121, 0.747);
   border-radius: 10px;
   text-align: center;
 }
 
 header {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 form {
@@ -30,14 +31,14 @@ form {
 
 footer {
   font-size: 12px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .instructions {
-  padding: 16px;
+  padding: 13px;
   border: 1px solid #90785eba;
-  width: 40%;
-  font-size: 14px;
+  width: 32%;
+  font-size: 13px;
   border-radius: 30px;
   line-height: 10px;
   color: black;
